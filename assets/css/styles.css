@@ -33,11 +33,22 @@
 .segunda-seccion-col {
     height: 600px;
     border-style: dotted;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 200px
 }
 
 .segunda-seccion-blanco {
-    background-color: white;
+    color: white;
+    font-weight: 400;
     
+}
+
+.segunda-seccion-blanco-tres
+{
+    padding-top: 90px;
+    color: white;
+    font-weight: 400;
 }
 
 .tercera-seccion {
