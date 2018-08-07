@@ -105,8 +105,13 @@
 .item-texto-deslizable {
     padding-top: 90px;
     height: 300px;
-    max-width: 300px;
-    width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+
+
+.item-texto-deslizable p {
+    max-width: 350px;
+    width: 50%;
+    margin: 0 auto;
 }
