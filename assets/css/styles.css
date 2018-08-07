@@ -25,9 +25,19 @@
     font-weight: 700;
 }
 
-.segunda-seccion col-md-2{
+.segunda-seccion {
     font-weight: 700;
     font-size: 20px
+}
+
+.segunda-seccion-col {
+    height: 600px;
+    border-style: dotted;
+}
+
+.segunda-seccion-blanco {
+    background-color: white;
+    
 }
 
 .tercera-seccion {
