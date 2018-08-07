@@ -18,5 +18,10 @@
 
 .segunda-seccion {
     padding: 30px;
-    
+    background-color: aquamarine;
+}
+
+.tercera-seccion {
+    padding: 30px;
+    background-color: white;
 }
