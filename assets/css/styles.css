@@ -1,5 +1,13 @@
 .logo {
     width: 100px;
     height: auto;
-    
+}
+
+#floating-container{
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 200px;
 }
