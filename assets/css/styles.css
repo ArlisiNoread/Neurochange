@@ -53,9 +53,11 @@
 
 .tercera-seccion {
     padding: 30px;
-    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    padding-left: 30px;
+    text-align: center;
 }
-
 
 .item-texto-deslizable{
     color: white;
