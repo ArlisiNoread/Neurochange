@@ -69,7 +69,7 @@
     
 }
 
-.oculta-seccion{
+.oculta-seccion {
     visibility: hidden;
     opacity: 0;
     background-color: darkblue;
@@ -79,9 +79,24 @@
     overflow: hidden;
 }
 
-.ending-logo{
+.ending-logo {
     width: auto;
     height: auto;
     max-height: 100px;
     padding: 0px 0px 30px;
+}
+
+.texto-deslizable {
+    background-color: deepskyblue;
+    text-align: center;
+
+}
+
+.item-texto-deslizable {
+    padding-top: 90px;
+    height: 300px;
+    max-width: 300px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
