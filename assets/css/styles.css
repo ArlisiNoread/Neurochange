@@ -31,7 +31,29 @@
     background-color: palevioletred;
 }
 
+.quinta-seccion {
+    padding: 30px;
+    background-color: chocolate;
+}
+
 .fotoCEO {
     height: auto;
     
+}
+
+#masSobreMargoth{
+    position: relative;
+    left: 36%;
+    margin: 10px;
+    
+}
+
+.oculta-seccion{
+    visibility: hidden;
+    opacity: 0;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
 }
