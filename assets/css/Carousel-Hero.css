@@ -12,15 +12,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image:url('../../assets/img/background/');
+  background-image:url('../../assets/img/background/Portada.jpg');
   font-size: 20px;
   align-content: center;
 }
 
 div.jumbotron.hero-photography {
   background-image:url('../../assets/img/background/Portada1.jpg');
-  font-size: 20px;
-    align-content: center;
+        font-size: 20px;
+      align-content: center;
 }
 
 
