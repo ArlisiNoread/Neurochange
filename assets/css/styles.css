@@ -167,5 +167,8 @@ p.copyright {
 .number-in-text {
     float: left;
     padding-left: 32%;
+    padding-top: 48px;
+    
+    
 }
 
