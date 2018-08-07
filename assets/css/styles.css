@@ -3,9 +3,6 @@
     height: auto;
 }
 
-
-
-
 #floating-container {
     position: absolute;
     z-index: 5;
@@ -70,7 +67,7 @@
     padding: 30px;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px
+    font-size: 18px;
 }
 
 .quinta-seccion {
@@ -105,6 +102,7 @@
 
 .fotoCEO {
     height: auto;
+    border-radius: 50%;
     
 }
 
@@ -112,7 +110,9 @@
     position: relative;
     left: 36%;
     margin: 10px;
-    
+    border-radius: 10px;
+    background-color: rgb(0, 135, 209);
+    color: white;
 }
 
 .oculta-seccion {
@@ -162,3 +162,13 @@
 p.copyright {
     color: white;
 }
+
+#contact-form {
+    padding: 60px;
+}
+
+.number-in-text {
+    float: left;
+    padding-left: 32%;
+}
+
