@@ -68,7 +68,9 @@
 
 .cuarta-seccion {
     padding: 30px;
-    background-color: palevioletred;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px
 }
 
 .quinta-seccion {
