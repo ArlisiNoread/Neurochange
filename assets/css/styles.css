@@ -3,11 +3,17 @@
     height: auto;
 }
 
-#floating-container{
+
+
+
+#floating-container {
     position: absolute;
     z-index: 5;
+    top: 27%;
+    left: 25%;
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
-    left: 0%;
-    top: 200px;
+
+    
 }
