@@ -186,3 +186,21 @@ p.copyright {
     text-align: center;
     
 }
+
+#masInformacion-flotante {
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    font-size: 100px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: darkseagreen;
+    z-index: -550;
+    border-radius: 5%;
+    
+}
