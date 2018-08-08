@@ -210,9 +210,10 @@ p.copyright {
     width: 50%;
     height: auto;
     margin: auto;
-    background-color: darkseagreen;
+    background-color: white;
     z-index: -550;
     border-radius: 5%;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -222,4 +223,9 @@ p.copyright {
     font-size: 44px;
     color: rgb(151, 215, 0);
     
+}
+
+#check {
+    padding-left: 47%;
+    font-size: 44px;
 }
