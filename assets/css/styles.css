@@ -359,12 +359,12 @@ p.copyright {
 }
 
 .services_section .service-column .inner{
-    height: 400px;
+    height: 470px;
 	position:relative;
 	display:block;
 	background:rgba(0,0,0,0.70);
 	color:#777777;
-	padding:50px 30px 70px;
+	padding:30px 10px 70px;
 	border-radius:3px;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -439,3 +439,12 @@ p.copyright {
 ====================================================================
 
 ***/
+
+
+#footer-final {
+    text-align: center;
+}
+
+#footer-final ul li a{
+    color: black;
+}
