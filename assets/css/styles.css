@@ -489,11 +489,10 @@ p.copyright {
 
     
 }
-#segunda-seccion-col1 {
 
-}
-
-#segunda-seccion-col2 {
-
+.margen-forzado {
+    
+    margin-left: 40px !important;
+    margin-right: 40px;
     
 }
