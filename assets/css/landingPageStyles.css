@@ -39,23 +39,91 @@ input[type=submit]:hover {
 
 #main-container {
     background-image: url(../img/background/Landing.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     height: 100%;
     position: absolute;
 }
 
 #formulario {
-    position: absolute;
-    top: 0;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    width: 350px;
-    height: auto;
-    margin-top: 10%;
-    margin-left: 50%;
+    !position: absolute;
+    !top: 0;
+    !border-radius: 5px;
+    !background-color: #f2f2f2;
+    !padding: 10px;
+    !width: 300px;
+    !height: auto;
+    !margin-top: 17%;
+    !margin-left: 71%;
 
 }
 
+#formulario form label{
+    margin-bottom: 2px;
+}
+
+#formulario form input{
+    margin: 0;
+    height: 50px;
+}
+
+#botonEnviar {
+    margin: 0px;
+    padding: 0px;
+    height: 35px !important;
+    margin-top: 5px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: dimgrey;
+}
+
+
+#logo{
+    text-align: center;
+}
+
+#logo .img-fluid{
+    width: 100%;
+    height: auto; 
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+#background {
+    background-image: url(../img/background/Landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    
+}
+
+#neurogame {
+    position: absolute;
+    top: 83%;
+    
+}
+
+#schiller-quote {
+    position: absolute;
+    top: 75%;
+    
+}
+
+#rows-id {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #neurogame {
+        visibility: hidden;
+        
+    }
+    
+    #schiller-quote {
+        visibility: hidden;
+        
+    }
+}
