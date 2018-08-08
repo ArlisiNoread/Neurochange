@@ -7,9 +7,18 @@
     padding: 5%;  
     padding-left: 49%;
     padding-right: 50px;
-    text-align: center;
-    font-size: 30px;
+    text-align: right;
+    font-size: 40px;
     font-family: 'Cabin', sans-serif;
+}
+
+.textouno{
+    font-size: 30px;
+}
+
+.subtexto{
+    font-size: 25px;
+    color: rgb(255, 196, 37);
 }
 
 #neurogame-id {
