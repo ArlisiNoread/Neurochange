@@ -4,15 +4,9 @@
 }
 
 #floating-container {
-    position: absolute;
-    z-index: 5;
-    top: 27%;
-    left: 25%;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    color: white;
-    list-style: none;
+    padding: 10%;  
+    padding-left: 50%;
+    text-align: left;
 }
 
 .primera-seccion {
