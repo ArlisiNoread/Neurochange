@@ -207,12 +207,18 @@ p.copyright {
     position: fixed;
     top: 100px;
     left: 25%;
-    font-size: 100px;
     width: 50%;
     height: auto;
     margin: auto;
     background-color: darkseagreen;
     z-index: -550;
     border-radius: 5%;
+    
+}
+
+
+#puzzle-piece {
+    padding-left: 10px;
+    font-size: 20px;
     
 }
