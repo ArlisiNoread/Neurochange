@@ -32,7 +32,7 @@
 }
 
 .segunda-seccion {
-    padding: 30px;
+    padding: 50px;
     background-color: rgb(0, 49,  82);
     color: rgb(151, 215, 0);
     font-family: 'Open Sans', sans-serif;
@@ -43,10 +43,12 @@
 
 .segunda-seccion-col {
     height: 600px;
-    border-style: dotted;
+    border-style: solid;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 115px;
     padding-bottom: 200px
+    padding-left: 100pxpx;
+    padding-right: 100px;
 }
 
 .segunda-seccion-blanco {
@@ -115,7 +117,7 @@
 
 #masSobreMargoth{
     position: relative;
-    left: 36%;
+    !left: 5%;
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(0, 135, 209);
@@ -268,8 +270,9 @@ p.copyright {
 }
 
 #check {
+    padding-bottom: 30px;
     padding-left: 47%;
-    font-size: 44px;
+    font-size: 80px;
 }
 
 
@@ -461,11 +464,36 @@ p.copyright {
     position: relative;
     padding: 0;
     margin: 0;
+    border-radius: 0;
 }
 .imagenCompleta img{
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
+    
+}
 
+.moverIzquierda{
+    position: relative;
+    left: -40px;
+    text-align: center;
+    
+}
+
+
+.moverDerecha{
+    position: relative;
+    left: 40px;
+    text-align: center;
+
+    
+}
+#segunda-seccion-col1 {
+
+}
+
+#segunda-seccion-col2 {
+
+    
 }
