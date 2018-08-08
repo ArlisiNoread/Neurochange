@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+    .text-slider-config {
+        text-align: center;
+        position: relative;
+        left: 0%;
+        top: -45px;
+    }
+    
+    .number-in-text{
+        margin-top: 0;
+        top: -40px;
+        text-align: center;
+    }
+    
+    .carousel-inner {
+        height: 340px;
+    }
+
+}

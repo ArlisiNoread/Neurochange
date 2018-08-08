@@ -201,13 +201,13 @@ p.copyright {
 }
 
 .number-in-text {
-    float: left;
-    padding-left: 25%;
-    padding-top: 48px;
+    !padding-left: 25%;
+    !padding-top: 48px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color:black;
     font-size: 80px;
+    text-align: right;
     
 }
 
@@ -555,4 +555,18 @@ p.copyright {
 #segunda-seccion-col2{
     height: auto;
     
+}
+
+.text-slider-config {
+    text-align: center;
+    margin-left: 0 !important;
+    width: 400px !important;
+    padding: 0;
+    position: relative;
+    left: -25%;
+}
+
+.carousel-inner{
+    
+    height: 330px;
 }
