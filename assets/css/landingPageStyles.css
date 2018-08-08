@@ -84,7 +84,7 @@ input[type=submit]:hover {
 #logo{
     position: relative;
     text-align: center;
-    top: -150px;
+    top: -140px;
 
 }
 
@@ -92,11 +92,11 @@ input[type=submit]:hover {
     width: 100%;
     height: auto; 
     padding-top: 30px;
-    padding-bottom: 30px
+    padding-bottom: 15px;
 }
 
 #background {
-    background-image: url(../img/background/Landing.jpg);
+    background-image: url(../img/background/Landing1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -130,7 +130,7 @@ input[type=submit]:hover {
 
 #form-columna {
     position: relative;
-    top: -300%;
+    top: -290%;
 }
 
 @media only screen and (max-width: 768px) {
