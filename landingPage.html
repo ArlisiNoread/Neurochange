@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Neurochange</title>
+<title>Neurochange LandingPage</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
-<link type="text/css" href="assets/css/landingPageStyles.css">
+<link rel="stylesheet" href="assets/css/landingPageStyles.css">
 <link rel="icon" href="./assets/img/logo/favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -28,27 +28,34 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
 </head>
+
+    
 <body>
+    
+    <section id="outer-container" class="container-fluid">
+        <div id="main-container" class="container">
+            <div id="formulario" class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Nombre Completo</label>
+                    <input type="text" id="fname" name="Nombre Completo">
+                    
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="Email">
+                    
+                    <label for="fname">Teléfono</label>
+                    <input type="text" id="fname" name="Teléfono">
+                    
+                    <label for="lname">Ciudad</label>
+                    <input type="text" id="lname" name="Ciudad">
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+    
 
-<h3>Contact Form</h3>
-
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Nombre Completo</label>
-    <input type="text" id="fname" name="Nombre Completo">
-
-    <label for="lname">Email</label>
-    <input type="text" id="lname" name="Email">
-
-    <label for="fname">Teléfono</label>
-    <input type="text" id="fname" name="Teléfono">
-
-    <label for="lname">Ciudad</label>
-    <input type="text" id="lname" name="Ciudad">
-      
-    <input type="submit" value="Enviar">
-  </form>
-</div>
-
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

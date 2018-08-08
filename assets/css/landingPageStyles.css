@@ -24,8 +24,42 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
+
+#outer-container {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    background-color: blue;
+}
+
+
+#main-container {
+    background-image: url(../img/background/Landing.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#formulario {
+    position: absolute;
+    top: 0;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    width: 350px;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 73%;
+
 }
+
