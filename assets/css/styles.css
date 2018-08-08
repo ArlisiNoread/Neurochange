@@ -340,7 +340,7 @@ p.copyright {
 	left:0px;
 	bottom:-3px;
 	width:24px;
-	border-bottom:5px solid #ff1a1a;	
+	border-bottom:5px solid rgb(0, 135, 209);	
 }
 
 .services_section .services{
@@ -392,7 +392,7 @@ p.copyright {
 }
 
 .services_section .service-column .inner:hover .icon{
-	color:#ff1a1a;	
+	color:rgb(0, 135, 209);	
 }
 
 .services_section .service-column h3{
