@@ -84,7 +84,7 @@ input[type=submit]:hover {
 #logo{
     position: relative;
     text-align: center;
-    top: -140px;
+    top: -152px;
 
 }
 
@@ -143,4 +143,11 @@ input[type=submit]:hover {
         visibility: hidden;
         
     }
+    
+    #logo{
+    position: relative;
+    text-align: center;
+    top: -20px;
+
+}
 }
