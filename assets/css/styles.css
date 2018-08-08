@@ -265,3 +265,178 @@ p.copyright {
     padding-left: 47%;
     font-size: 44px;
 }
+
+
+
+/*** 
+
+====================================================================
+	Services Section
+====================================================================
+
+***/
+
+#main-imagen-2 {
+    
+    padding: 0;
+}
+
+.services_section{
+	position:relative;
+	padding: 100px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+
+.services_section:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:url(../images/background/dotted-overlay.png) center center repeat;
+	background-color:rgba(0,0,0,0.30);	
+}
+
+.services_section .auto-container{
+	position:relative;
+	z-index:1;	
+}
+
+.title-style-three{
+	position:relative;
+	text-align:center;
+	margin-bottom:80px;		
+}
+
+.title-style-three h1{
+	font-size:80px;
+	text-transform:uppercase;
+	font-weight:900;
+	color:#ffffff;
+	letter-spacing:1px;
+	line-height:100px;	
+}
+
+.title-style-three h1 .lined-text{
+	position:relative;
+	display:inline-block;
+	border-bottom:1px solid #ffffff;	
+}
+
+.title-style-three h1 .bg-text{
+	position:relative;
+	display:inline-block;
+	background:#ff1a1a;
+	padding:0px 10px;
+	margin:0px -5px;	
+}
+
+.title-style-three h1 .lined-text:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	bottom:-3px;
+	width:24px;
+	border-bottom:5px solid #ff1a1a;	
+}
+
+.services_section .services{
+	position:relative;
+	padding-bottom:30px;	
+}
+
+.services_section .services .row{
+	position:relative;
+	margin:0px -25px;
+}
+
+.services_section .service-column{
+	position:relative;
+	padding:0px 25px;
+	margin-bottom:50px;	
+}
+
+.services_section .service-column .inner{
+    height: 400px;
+	position:relative;
+	display:block;
+	background:rgba(0,0,0,0.70);
+	color:#777777;
+	padding:50px 30px 70px;
+	border-radius:3px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;	
+}
+
+.services_section .service-column .inner:hover{
+	background:#ffffff;	
+}
+
+.services_section .service-column .icon{
+	position:relative;
+	display:block;
+	font-size:48px;
+	line-height:48px;
+	margin-bottom:15px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .service-column .inner:hover .icon{
+	color:#ff1a1a;	
+}
+
+.services_section .service-column h3{
+	position:relative;
+	display:block;
+	font-size:20px;
+	font-weight:700;
+	color:#d8d8d8;
+	text-transform:uppercase;
+	margin-bottom:7px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .service-column .inner:hover h3{
+	color:#1e1e1e;	
+}
+
+.services_section .service-column .text{
+	position:relative;
+	display:block;
+	font-size:14px;
+	font-weight:500;
+	line-height:1.7em;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .btn-style-three{
+	padding-left:50px;
+	padding-right:50px;	
+}
+
+
+/*** 
+
+====================================================================
+	End Services Section
+====================================================================
+
+***/
