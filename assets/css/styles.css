@@ -247,8 +247,9 @@ p.copyright {
 
 #masInformacion-flotante-2 .container{
     height: 95%;
-    padding-top: 50px;
-    background-color: cornsilk;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
     
 }
 
