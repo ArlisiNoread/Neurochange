@@ -188,7 +188,7 @@ p.copyright {
 }
 
 #div-iframe {
-    padding-top: 25%;
+    padding-top: 50px;
     padding-left: 25%;
     padding-bottom: 350px;
 }
@@ -205,6 +205,7 @@ p.copyright {
     opacity: 0;
     text-align: center;
     position: fixed;
+<<<<<<< HEAD
     top: 100px;
     left: 25%;
     width: 50%;
@@ -214,6 +215,24 @@ p.copyright {
     z-index: -550;
     border-radius: 5%;
     font-family: 'Open Sans', sans-serif;
+=======
+    top: 80px;
+    left: 15%;
+    width: 70%;
+    height: 80%;
+    !margin: auto;
+    background-color: grey;
+    z-index: -550;
+    border-radius: 1%;
+    padding-top: 50px;
+    
+}
+
+#masInformacion-flotante .container{
+    height: 95%;
+    padding-top: 50px;
+    background-color: cornsilk;
+>>>>>>> c4ef11a8c18c11324f3dee412b43a1190d3e9996
     
 }
 

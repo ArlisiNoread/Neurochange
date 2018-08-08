@@ -5,8 +5,7 @@ $(document).ready(function() {
                 'visibility' : 'visible', 
                 'opacity' : '1', 
                 '-webkit-transition' : 'visibility 0s linear 0s, opacity 600ms', /* Safari */
-                'transition' : 'visibility 0s linear 0s, opacity 600ms',
-                'height' : 'auto'
+                'transition' : 'visibility 0s linear 0s, opacity 600ms'
             });
         
     }); 
@@ -19,8 +18,7 @@ $(document).ready(function() {
                 'visibility' : 'hidden', 
                 'opacity' : '0', 
                 '-webkit-transition' : 'visibility 0s linear 300ms, opacity 300ms', /* Safari */
-                'transition' : 'visibility 0s linear 300ms, opacity 300ms',
-                'height' : '0'
+                'transition' : 'visibility 0s linear 300ms, opacity 300ms'
             });
         
     }); 

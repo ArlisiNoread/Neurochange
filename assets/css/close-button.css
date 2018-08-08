@@ -1,11 +1,11 @@
 .close {
   position: absolute;
-  right: 32px;
-  top: 32px;
+  right: 12px;
+  top: 10px;
   width: 32px;
   height: 32px;
   opacity: 0.3;
-  background-color: grey;
+  background-color: black;
   border-radius: 25%;
 }
 .close:hover {
