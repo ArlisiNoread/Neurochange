@@ -12,24 +12,7 @@
     font-family: 'Cabin', sans-serif;
 }
 
-.primera-seccion {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    padding: 30px;
-    background-color: rgb(13, 15, 25);
-    color: white;
-}
 
-.primera-seccion h3{
-    padding-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 45px;
-}
-
-.primera-seccion p{
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-}
 
 .segunda-seccion {
     padding: 50px;
