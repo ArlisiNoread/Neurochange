@@ -12,7 +12,23 @@
     font-family: 'Cabin', sans-serif;
 }
 
+#neurogame-id {
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: rgb(13, 15, 25) !important;
+    color: white !important;
+}
 
+.primera-seccion h3{
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+}
+
+.primera-seccion p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .segunda-seccion {
     padding: 50px;
@@ -29,8 +45,8 @@
     border-style: solid;
     text-align: center;
     padding-top: 115px;
-    padding-bottom: 200px
-    padding-left: 100pxpx;
+    padding-bottom: 200px;
+    padding-left: 100px;
     !padding-right: 100px;
 }
 
@@ -162,7 +178,6 @@ p.copyright {
 .number-in-text {
     float: left;
     padding-left: 25%;
-    padding-right:
     padding-top: 48px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
