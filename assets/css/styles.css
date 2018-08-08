@@ -4,7 +4,7 @@
 }
 
 #floating-container {
-    padding: 5%;  
+    padding: 1%;  
     padding-left: 49%;
     padding-right: 50px;
     text-align: right;
@@ -390,6 +390,24 @@ p.copyright {
 	position:relative;
 	padding:0px 25px;
 	margin-bottom:50px;	
+}
+
+#contenedor_de_columnas {
+    height: auto;
+
+    
+}
+
+.service-column{
+    
+    height: auto !important;
+}
+
+.inner {
+    height: 100% !important;
+    padding-bottom: 20px !important;
+    
+    
 }
 
 .services_section .service-column .inner{
