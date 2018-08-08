@@ -205,14 +205,22 @@ p.copyright {
     opacity: 0;
     text-align: center;
     position: fixed;
-    top: 100px;
-    left: 25%;
-    width: 50%;
-    height: auto;
-    margin: auto;
-    background-color: darkseagreen;
+    top: 80px;
+    left: 15%;
+    width: 70%;
+    height: 80%;
+    !margin: auto;
+    background-color: grey;
     z-index: -550;
-    border-radius: 5%;
+    border-radius: 1%;
+    padding-top: 50px;
+    
+}
+
+#masInformacion-flotante .container{
+    height: 95%;
+    padding-top: 50px;
+    background-color: cornsilk;
     
 }
 
