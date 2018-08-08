@@ -6,7 +6,7 @@ $(document).ready(function() {
                 'opacity' : '1', 
                 '-webkit-transition' : 'visibility 0s linear 0s, opacity 600ms', /* Safari */
                 'transition' : 'visibility 0s linear 0s, opacity 600ms',
-                'height' : 'auto',
+                'height' : 'auto'
             });
         
     }); 
