@@ -12,10 +12,10 @@
 .primera-seccion {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    padding: 30px;
 }
 
 .primera-seccion h3{
-    padding-left: 100px;
     padding-bottom: 20px;
     
 }
@@ -26,11 +26,8 @@
     color: rgb(151, 215, 0);
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-}
-
-.segunda-seccion {
-    font-weight: 700;
     font-size: 20px
+
 }
 
 .segunda-seccion-col {
@@ -178,3 +175,14 @@ p.copyright {
     
 }
 
+#div-iframe {
+    padding-top: 25%;
+    padding-left: 25%;
+    padding-bottom: 350px;
+}
+
+#div-primera-seccion-col-left {
+    padding-top: 15%;
+    text-align: center;
+    
+}
