@@ -9,7 +9,7 @@
     padding-right: 50px;
     text-align: left;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -214,22 +214,15 @@ p.copyright {
     z-index: -550;
     border-radius: 5%;
     font-family: 'Open Sans', sans-serif;
-    top: 80px;
-    left: 15%;
-    width: 70%;
-    height: 80%;
-    !margin: auto;
-    background-color: grey;
-    z-index: -550;
-    border-radius: 1%;
     padding-top: 50px;
     
 }
 
 #masInformacion-flotante .container{
     height: 95%;
-    padding-top: 50px;
-    background-color: cornsilk;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
     
 }
 
@@ -248,15 +241,6 @@ p.copyright {
     background-color: white;
     z-index: -550;
     border-radius: 5%;
-    font-family: 'Open Sans', sans-serif;
-    top: 80px;
-    left: 15%;
-    width: 70%;
-    height: 80%;
-    !margin: auto;
-    background-color: grey;
-    z-index: -550;
-    border-radius: 1%;
     padding-top: 50px;
     
 }
