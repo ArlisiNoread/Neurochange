@@ -1,6 +1,22 @@
 .logo {
-    width: 100px;
+    width: 130px;
     height: auto;
+    position: fixed;
+    z-index: 20;
+    padding: 0;
+    margin: 0;
+    top: 5px
+    
+}
+
+#navcol-1{
+    text-align: right;
+}
+
+#barraNavegacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
 #floating-container {
