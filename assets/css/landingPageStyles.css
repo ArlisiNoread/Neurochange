@@ -2,7 +2,9 @@ body {
     font-family: "OpenSans", sans-serif;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -48,26 +50,26 @@ input[type=submit]:hover {
 }
 
 #formulario {
-    !position: absolute;
-    !top: 0;
-    !border-radius: 5px;
-    !background-color: #f2f2f2;
-    !padding: 10px;
-    !width: 300px;
-    !height: auto;
-    !margin-top: 17%;
-    !margin-left: 71%;
+     !position: absolute;
+     !top: 0;
+     !border-radius: 5px;
+     !background-color: #f2f2f2;
+     !padding: 10px;
+     !width: 300px;
+     !height: auto;
+     !margin-top: 17%;
+     !margin-left: 71%;
     background-color: white;
     padding: 10px;
     border-radius: 2%;
 
 }
 
-#formulario form label{
+#formulario form label {
     margin-bottom: 2px;
 }
 
-#formulario form input{
+#formulario form input {
     margin: 0;
     height: 50px;
 }
@@ -83,16 +85,16 @@ input[type=submit]:hover {
 }
 
 
-#logo{
+#logo {
     position: relative;
     text-align: center;
     top: -190px;
 
 }
 
-#logo .img-fluid{
+#logo .img-fluid {
     width: 100%;
-    height: auto; 
+    height: auto;
     padding-top: 30px;
     padding-bottom: 15px;
 }
@@ -103,19 +105,19 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     height: 100%;
     position: absolute;
-    
+
 }
 
 #neurogame {
     position: absolute;
-    !top: 83%;
-    
+     !top: 83%;
+
 }
 
 #schiller-quote {
     position: absolute;
-    !top: 75%;
-    
+     !top: 75%;
+
 }
 
 #rows-id {
@@ -123,13 +125,13 @@ input[type=submit]:hover {
     top: 68%;
     left: 0px;
     text-align: center;
-    !padding-left: 30px;
-    !padding-right: 30px;
+     !padding-left: 30px;
+     !padding-right: 30px;
     background-color: #F5F5F7;
     height: 110px;
     width: 100%;
     margin: 0;
-    
+
 }
 
 #form-columna {
@@ -141,11 +143,11 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 1080px) {
 
-    
-    #logo{
-    position: relative;
-    text-align: center;
-    top: -140px;
+
+    #logo {
+        position: relative;
+        text-align: center;
+        top: -140px;
 
     }
 }
@@ -153,35 +155,96 @@ input[type=submit]:hover {
 @media only screen and (max-width: 768px) {
     #neurogame {
         visibility: hidden;
-        
+
     }
-    
+
     #schiller-quote {
         visibility: hidden;
-        
+
     }
-    
+
     #form-columna {
-    position: relative;
-    top: 0px;
-    max-width: 100%;
-    padding-top: 0;
-    margin-top: 0;
+        position: relative;
+        top: 0px;
+        max-width: 100%;
+        padding-top: 0;
+        margin-top: 0;
 
     }
-    
-    #logo{
-    padding-top: auto;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    position: relative;
-    text-align: center;
-    top: -50px;
+
+    #logo {
+        padding-top: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        position: relative;
+        text-align: center;
+        top: -50px;
 
     }
-    
-    #rows-id { 
+
+    #rows-id {
         height: auto;
     }
 
+}
+
+@media only screen and (max-height: 700px) and (min-width: 768px) {
+    #logo .img-fluid {
+        width: 80%;
+        height: auto;
+
+    }
+
+    #logo {
+        position: relative;
+        text-align: center;
+        top: -150px;
+
+    }
+}
+
+@media only screen and (max-height: 640px) and (min-width: 768px) {
+    #logo .img-fluid {
+        width: 50%;
+        height: auto;
+
+    }
+
+    #logo {
+        position: relative;
+        text-align: center;
+        top: -90px;
+
+    }
+}
+
+
+@media only screen and (max-height: 550px) and (min-width: 768px) {
+    #logo .img-fluid {
+        width: 40%;
+        height: auto;
+
+    }
+
+    #logo {
+        position: relative;
+        text-align: center;
+        top: -60px;
+
+    }
+}
+
+@media only screen and (max-height: 550px) and (min-width: 768px) {
+    #logo .img-fluid {
+        width: 40%;
+        height: auto;
+
+    }
+
+    #logo {
+        position: relative;
+        text-align: center;
+        top: -60px;
+
+    }
 }
