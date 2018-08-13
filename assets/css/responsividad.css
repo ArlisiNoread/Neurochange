@@ -21,4 +21,70 @@
         padding-left: 0px;
 
     }
+
+    #neurogame-id {
+        height: 700px;
+    }
+
+    .line-zero {
+        line-height: 0;
+        text-decoration-line: none;
+
+    }
+
+    .upper-floating-container {
+        padding-top: 7vw;
+    }
+
+    #floating-container {
+        padding: 0%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Cabin', sans-serif;
+
+    }
+
+    .textouno {
+        padding-left: 0;
+        font-size: 5vw;
+
+    }
+
+    .hipertexto {
+        font-size: 4vw;
+    }
+
+    .subtexto {
+        font-size: 4vw;
+    }
+
+    .last-neuro-text {
+        top: -5px;
+        font-size: 8.5vw;
+    }
+
+    .mouse-icon {
+        visibility: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    #floating-container {
+         !padding-top: 90px;
+    }
+
+
+    .mouse-icon {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    #floating-container {
+        padding-top: 90px;
+    }
+
 }

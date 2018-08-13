@@ -18,6 +18,13 @@
 
 }
 
+.upper-floating-container {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
 #floating-container {
     padding: 1%;
     padding-left: 49%;
@@ -28,12 +35,20 @@
 }
 
 .textouno {
-    font-size: 30px;
+     !font-size: 30px;
+    padding-left: 32%;
+    max-width: 100%;
+    font-size: 2.5vw
+}
+
+.hipertexto {
+    font-size: 3vw;
 }
 
 .subtexto {
     font-size: 25px;
     color: rgb(255, 196, 37);
+    font-size: 2vw;
 }
 
 #neurogame-id {
