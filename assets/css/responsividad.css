@@ -78,7 +78,7 @@
 
 
     .mouse-icon {
-        visibility: visible;
+         !visibility: visible;
     }
 
     .tercera-seccion {
@@ -95,6 +95,10 @@
 
     .carousel-control-prev-icon-derecha {
         top: 250px;
+    }
+
+    #audio-mp3 {
+        width: 100%;
     }
 }
 
