@@ -82,7 +82,7 @@
     }
 
     .tercera-seccion {
-        height: 1300px;
+        height: 1100px;
     }
 
     .carousel-inner {
@@ -103,6 +103,17 @@
 }
 
 @media only screen and (max-width: 410px) {
+
+
+    .tercera-seccion {
+        height: 1300px;
+    }
+
+    .carousel-inner {
+        height: 1000px;
+    }
+
+
     #floating-container {
         padding-top: 90px;
     }
