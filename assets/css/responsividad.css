@@ -80,11 +80,39 @@
     .mouse-icon {
         visibility: visible;
     }
+
+    .tercera-seccion {
+        height: 1300px;
+    }
+
+    .carousel-inner {
+        height: 1000px;
+    }
+
+    .carousel-control-prev-icon-izquierda {
+        top: 250px;
+    }
+
+    .carousel-control-prev-icon-derecha {
+        top: 250px;
+    }
 }
 
 @media only screen and (max-width: 410px) {
     #floating-container {
         padding-top: 90px;
+    }
+
+    .carousel-control-prev-icon-izquierda {
+        top: 250px;
+    }
+
+    .carousel-control-prev-icon-derecha {
+        top: 250px;
+    }
+
+    .tercera-seccion {
+        height: 1500px;
     }
 
 }
