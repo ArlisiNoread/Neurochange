@@ -110,7 +110,7 @@
     }
 
     .carousel-inner {
-        height: 1000px;
+        height: 600px;
     }
 
 
@@ -127,7 +127,7 @@
     }
 
     .tercera-seccion {
-        height: 1500px;
+         !height: 1500px;
     }
 
 }
