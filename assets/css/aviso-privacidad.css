@@ -2,17 +2,24 @@
 
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(5, 50, 0;
+    border-color: rgb(5, 50, 82);
 
 
 }
 
 .logo-gris {
-    width: 100px;
-    float: right;
+    width: 200px;
+
+    float: left;
+    position: absolute;
 }
 
 .pegado-derecha {
-    text-align: right;
+     !text-align: right;
     font-family: 'Open Sans', sans-serif;
+}
+
+.margin-configuracion {
+
+    margin: 60px;
 }

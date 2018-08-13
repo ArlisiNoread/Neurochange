@@ -96,8 +96,9 @@
 .segunda-seccion-blanco {
     color: white;
     font-weight: 400;
-    padding-left: 10px;
+     !padding-left: 10px;
     border-color: rgb(255, 196, 37);
+    padding-top: 25%;
 
 }
 
