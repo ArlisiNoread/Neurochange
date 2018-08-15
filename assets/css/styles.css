@@ -608,6 +608,11 @@ p.copyright {
      !left: -25%;
 }
 
+.text-slider-config p {
+
+    color: white;
+}
+
 .carousel-inner {
 
     height: 330px;
