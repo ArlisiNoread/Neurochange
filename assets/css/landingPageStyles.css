@@ -138,6 +138,16 @@ input[type=submit]:hover {
     position: relative;
     top: -290%;
     max-width: 500px;
+
+    -moz-position: relative;
+    -moz-top: -290%;
+    -moz-max-width: 500px;
+
+    -webkit-appearance: position: relative;
+    -webkit-top: -290%;
+    -webkit-max-width: 500px;
+
+
 }
 
 
